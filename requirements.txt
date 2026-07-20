@@ -23,3 +23,10 @@ aiosqlite>=0.19.2
 # Progress/CLI
 tqdm>=4.66.1
 colorama>=0.4.6
+
+pyrogram>=2.0.106
+tgcrypto>=1.2.5
+python-dotenv>=1.0.0
+aiohttp>=3.9.1
+aiofiles>=23.2.1
+requests>=2.31.0
