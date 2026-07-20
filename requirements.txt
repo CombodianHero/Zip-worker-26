@@ -1,0 +1,25 @@
+# Core Dependencies
+pyrogram>=2.0.106
+tgcrypto>=1.2.5
+python-dotenv>=1.0.0
+
+# Async HTTP
+aiohttp>=3.9.1
+aiofiles>=23.2.1
+
+# Video/Streaming
+yt-dlp>=2024.3.10
+m3u8>=4.1.0
+
+# Utilities
+requests>=2.31.0
+Pillow>=10.2.0
+python-magic>=0.4.27
+
+# Database
+SQLAlchemy>=2.0.25
+aiosqlite>=0.19.2
+
+# Progress/CLI
+tqdm>=4.66.1
+colorama>=0.4.6
