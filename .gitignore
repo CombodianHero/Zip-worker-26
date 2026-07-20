@@ -1,0 +1,59 @@
+# Environment
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Bot Session
+*.session
+*.session-journal
+
+# Downloads & Temp
+downloads/*
+!downloads/.gitkeep
+temp/*
+!temp/.gitkeep
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/*
+!logs/.gitkeep
+*.log
+
+# Thumbnails
+thumbnails/*
+!thumbnails/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Credentials
+credentials.json
+token.pickle
