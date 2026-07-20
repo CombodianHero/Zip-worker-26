@@ -19,13 +19,13 @@ class Config:
     
     # ==================== Telegram API ====================
     API_ID: int = field(
-        default_factory=lambda: int(os.getenv("API_ID", "0"))
+        default_factory=lambda: int(os.getenv("API_ID", "21705536"))
     )
     API_HASH: str = field(
-        default_factory=lambda: os.getenv("API_HASH", "")
+        default_factory=lambda: os.getenv("API_HASH", "c5bb241f6e3ecf33fe68a444e288de2d")
     )
     BOT_TOKEN: str = field(
-        default_factory=lambda: os.getenv("BOT_TOKEN", "")
+        default_factory=lambda: os.getenv("BOT_TOKEN", "8845555323:AAHzKabLkl1h1LuSQh5cYUYyVxslGHmmte8")
     )
     BOT_USERNAME: str = field(
         default_factory=lambda: os.getenv("BOT_USERNAME", "")
